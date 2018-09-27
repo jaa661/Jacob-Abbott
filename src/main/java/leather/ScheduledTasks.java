@@ -17,6 +17,6 @@ public class ScheduledTasks {
 
     @Scheduled(fixedRate = 5000)
     public void hitServer() {
-       ;
+        System.out.println("running");
     }
 }
